@@ -1,0 +1,3 @@
+[submodule "Studious/vendor/spdlog"]
+	path = Studious/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
