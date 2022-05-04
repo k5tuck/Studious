@@ -8,9 +8,9 @@ int main(int argc, char** argv) {
 
 	Studious::Log::Init();
 
-	//auto msg = "Welcome to Studious Engine!";
-	//ST_CORE_WARN(msg);
-	//ST_INFO("This is just a Test!");
+	auto msg = "Welcome to Studious Engine!";
+	ST_CORE_WARN(msg);
+	ST_INFO("This is just a Test!");
 
 	auto app = Studious::CreateApplication();
 	app->Init();
